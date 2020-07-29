@@ -6,6 +6,25 @@
 **endog_res_clean.do**<br/>
 (Data Cleaning)<br/>
 
+The data we use include:
+
+(a) New York Times Case Reports<br/>
+https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv<br/>
+(b) Safegraph’s dwell time data at the county-level<br/>
+(c) Safegraph’s point of interest visits by county<br/>
+(d) County-level weather data<br/>
+(e) County-level policies <br/>
+https://ce.naco.org/?dset=COVID-19&ind=Emergency%20Declaration%20Types<br/>
+And<br/>
+https://docs.google.com/spreadsheets/d/133Lry-k80-BfdPXhlS0VHsLEUQh5_UutqAt7czZd7ek/edit#gid=0<br/>
+(f) School closure data from MCH<br/>
+(g) State-level policy<br/>
+https://docs.google.com/spreadsheets/d/1zu9qEWI8PsOI_i8nI_S29HDGHlIp2lfVMsGxpQ5tvAQ/edit#gid=973655443<br/>
+(h) County-level population<br/>
+https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv<br/>
+(i) Rural/metro county definition from ERS <br/>
+https://www.ers.usda.gov/data-products/rural-urban-continuum-codes.aspx<br/>
+
 The cleaned dataset is named as **endog_res_final.dta**. 
 
 We only upload the cleaned dataset used in this study. 
