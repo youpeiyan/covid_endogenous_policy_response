@@ -38,7 +38,11 @@ If you are interested in any intermediate datasets:<br/>
 (a) Change the path directory to your local folder.<br/>
 (b) Drag all the do files in this repo into this folder.<br/>
 
-3. Although we put selected tables in the main text and SI, the following robustness checks are asked by reviewers and are performed in the results in each list:
+3. Although we put selected tables in the main text and SI, the following robustness checks are asked by reviewers and are performed in the results in each list under each group:
+
+
+***group1***: For robustness check results with right-hand-side case report variables all in the level form.<br/>
+***group2***: For robustness check results with right-hand-side case report variables all in the log form.
 
 ***list1***: county case and national case<br/>
 ***list2***: state case and national case<br/>
@@ -52,6 +56,10 @@ If you are interested in any intermediate datasets:<br/>
 ***list10***: new county case and new national case<br/>
 ***list11***: new state case and new national case<br/>
 ***list12***: new county case, new state case, and new national case<br/>
+
+The other two folders in the ***results*** folder are:<br/>
+***_bup***: For regression results of figures and partial identification checks.<br/>
+***figures***: For figures produced in this research
 
 4. In each ***list*** folder under each ***group*** folder, you will see 8 csv files after running. 
 
