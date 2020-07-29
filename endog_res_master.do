@@ -19,6 +19,21 @@ global path "/Users/youpei/Downloads/Yale/COVID19_ER" // You can change it to yo
 **** Function of this file: Master file for all  the main regression and the robustness checks ****
 ***************************************************************************************************
 
+**********************************
+**** Create a list of folders ****
+**********************************
+mkdir $path/results
+mkdir $path/results/_bup
+mkdir $path/results/figures
+mkdir $path/results/group1
+mkdir $path/results/group2
+forval j = 1/2 {
+forval i = 1/12 {
+mkdir $path/results/group`j'/list`i'
+}
+}
+
+
 use "$path/endog_res_final.dta", clear
 
 *******************************************
