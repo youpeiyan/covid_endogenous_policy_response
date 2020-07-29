@@ -88,7 +88,7 @@ Those files with -nobin- in the titles run the same regression models but with b
  
 To run **date_plot.R**:
 
-(a) Change the path directory to your local folder.
+(a) Change the path directory to your local folder.<br/>
 (b) Install packages listed in library() if not yet installed.
 
 7. Two final datasets: **endog_res_final.dta**, **date_plot.xls** and all the CODE are in google drive
