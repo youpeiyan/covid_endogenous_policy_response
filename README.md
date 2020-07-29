@@ -37,18 +37,6 @@ If you are interested in any intermediate datasets:<br/>
 
 (a) Change the path directory to your local folder.<br/>
 (b) Drag all the do files in this repo into this folder.<br/>
-(c) Create a results folder. In the folder, create four subfolders named
-
-***_bup*** <br/>
-(For regression results of figures and partial identification checks)<br/>
-***figures*** <br/>
-(For figures produced in this research)<br/>
-***group1***<br/>
-(For robustness check results with right-hand-side case report variables all in the level form)<br/>
-***group2***<br/>
-(For robustness check results with right-hand-side case report variables all in the log form)
-
-In group1 and group2 folders, create 12 subfolders named from ***list1***, ***list2***, …, to ***list12***. 
 
 3. Although we put selected tables in the main text and SI, the following robustness checks are asked by reviewers and are performed in the results in each list:
 
