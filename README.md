@@ -12,6 +12,7 @@ The data we use include:
 https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv<br/>
 (b) Safegraph’s dwell time data at the county-level<br/>
 (c) Safegraph’s point of interest visits by county<br/>
+(cleaned in **day_visit_sum_all.dta**)
 (d) County-level weather data<br/>
 (e) County-level policies <br/>
 https://ce.naco.org/?dset=COVID-19&ind=Emergency%20Declaration%20Types<br/>
@@ -34,6 +35,7 @@ If you are interested in any intermediate datasets:<br/>
 (b) contact us for Safegraph datasets information.<br/>
 
 2. You can run **endog_res_master.do** with the data file **endog_res_final.dta** directly. To start:
+(For Point of interest visits results, you will merge this with **day_visit_sum_all.dta**, code provided)
 
 (a) Change the path directory to your local folder.<br/>
 (b) Drag all the do files in this repo into this folder.<br/>
@@ -91,7 +93,7 @@ To run **date_plot.R**:
 (a) Change the path directory to your local folder.<br/>
 (b) Install packages listed in library() if not yet installed.
 
-7. Two final datasets: **endog_res_final.dta**, **date_plot.xls** and all the CODE are in google drive
+7. Two final datasets: **endog_res_final.dta**, **date_plot.xls**, **day_visit_sum_all.dta** and all the CODE are in google drive
 https://drive.google.com/file/d/1ydV0oIK5Od3GgzTwPowuwdhTMsLxgjJd 
 
 
