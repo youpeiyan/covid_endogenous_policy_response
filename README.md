@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1Oj5MRtexqNVtyTl6N5RKubCc9qBnd1NJ/view?usp=shari
 It also contains a folder named **figures** that have exported .xls files that can be used to plot maps in **endog_res_10_maps.R** directly. 
 
 If you are interested in any intermediate datasets:<br/>
-(a) the links updated on 6/29/2020 is in **endog_res_data_import.do** for public datasets. <br/>
+(a) the links updated on 6/29/2020 is in **endog_res_1_data_import.do** for public datasets. <br/>
 (b) contact us for Safegraph datasets information.<br/>
 
 2. You can run the following .do files with the data file “**endog_res_final2.dta**” directly <br/>
