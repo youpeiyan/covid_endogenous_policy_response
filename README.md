@@ -36,20 +36,20 @@ We only upload the cleaned datasets used in this study in the zip file **dataset
 https://drive.google.com/file/d/1Oj5MRtexqNVtyTl6N5RKubCc9qBnd1NJ/view?usp=sharing <br/>
 It also contains a folder named **figures** that have exported .xls files that can be used to plot maps in **endog_res_10_maps.R** directly. 
 
-If you are interested in any intermediate datasets:
-(a) the links updated on 6/29/2020 is in **endog_res_data_import.do** for public datasets.
-(b) contact us for Safegraph datasets information.
+If you are interested in any intermediate datasets:<br/>
+(a) the links updated on 6/29/2020 is in **endog_res_data_import.do** for public datasets. <br/>
+(b) contact us for Safegraph datasets information.<br/>
 
-2. You can run the following .do files with the data file “**endog_res_final2.dta**” directly <\br>
-**endog_res_4_main.do**: contains the main regression models showed in Table 1, and the related models without interaction term that showed in SI.<\br>
-**endog_res_5_robustness.do**: contains all the robustness checks regression showed in SI.<\br>
-**endog_res_6_fig2.do**: contains the plot of Figure 2.<\br>
-**endog_res_7_fig3.do**: contains the plot of Figure 3.<\br>
-**endog_res_8_compensating_case.do**: contains how compensating case is calculated under the preferred kitchen sink model. <\br>
+2. You can run the following .do files with the data file “**endog_res_final2.dta**” directly <br/>
+**endog_res_4_main.do**: contains the main regression models showed in Table 1, and the related models without interaction term that showed in SI.<br/>
+**endog_res_5_robustness.do**: contains all the robustness checks regression showed in SI.<br/>
+**endog_res_6_fig2.do**: contains the plot of Figure 2.<br/>
+**endog_res_7_fig3.do**: contains the plot of Figure 3.<br/>
+**endog_res_8_compensating_case.do**: contains how compensating case is calculated under the preferred kitchen sink model. <br/>
 
-To start: <\br>
-(a) Change the path directory to your local folder.<\br>
-(b) Drag all the do files in this repo into this folder.<\br>
+To start: <br/>
+(a) Change the path directory to your local folder. <br/>
+(b) Drag all the do files in this repo into this folder.<br/>
 
 3. We also build conceptual framework to show the concept of compensating cases with the median and mean county case when the stay-at-home order was in-effect. We also show the Krinsky-Robb confidence interval for the simulated compensating case between 0 to 100. The code is in **endog_res_9_conceptural.R** that does not require any dataset.
 
@@ -57,7 +57,7 @@ To start: <\br>
  
 To run **endog_res_10_maps.R**:
 
-(a) Change the path directory to your local folder. <\br>
-(b) Install packages listed in library() if not yet installed.
+(a) Change the path directory to your local folder. <br/>
+(b) Install packages listed in library() if not yet installed.<br/>
 
 5. The methodology of augmented synthetic control is in the corresponding folder. 
