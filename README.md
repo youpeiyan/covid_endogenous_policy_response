@@ -55,7 +55,7 @@ To start: <\br>
 
 4. For the maps created in the study, use **endog_res_10_maps.R** and the corresponding .xls files in the **figures** folder. All the .xls files are derived from **endog_res_final2.dta**, with only key dates of policies or first case report dates for each county. 
  
-To run **ndog_res_10_maps.R**:
+To run **endog_res_10_maps.R**:
 
 (a) Change the path directory to your local folder.
 (b) Install packages listed in library() if not yet installed.
