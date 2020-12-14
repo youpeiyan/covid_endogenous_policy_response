@@ -57,7 +57,7 @@ To start: <\br>
  
 To run **endog_res_10_maps.R**:
 
-(a) Change the path directory to your local folder.
+(a) Change the path directory to your local folder. <\br>
 (b) Install packages listed in library() if not yet installed.
 
 5. The methodology of augmented synthetic control is in the corresponding folder. 
