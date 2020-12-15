@@ -45,7 +45,7 @@ If you are interested in any intermediate datasets:<br/>
 **endog_res_5_robustness.do**: contains all the robustness checks regression showed in SI.<br/>
 **endog_res_6_fig2.do**: contains the plot of Figure 2.<br/>
 **endog_res_7_fig3.do**: contains the plot of Figure 3.<br/>
-**endog_res_8_compensating_case.do**: contains how compensating case is calculated under the preferred kitchen sink model. <br/>
+**endog_res_8_compensating_case.do**: contains how compensating case is calculated under the preferred model (with labor share and epidemic day fixed effects). <br/>
 
 To start: <br/>
 (a) Change the path directory to your local folder. <br/>
