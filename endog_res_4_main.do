@@ -70,5 +70,5 @@ eststo: qui reghdfe logy lcc lcc_divEMP* lcn lcn1 soe sip sip_divEMP* scs $xctrl
 eststo: qui reghdfe logy lcc lcc_divEMP* lcn lcn1 soe sip sip_divEMP* scs $xctrl crazy if sipd !=., absorb(geoid dbin epiday_s) cluster(stateid) 
 eststo: qui reghdfe logy lcc lcc_divEMP* lcn lcn1 soe sip sip_divEMP* scs $xctrl crazy if sipd !=., absorb(geoid dbin epiday_s day_sip) cluster(stateid) 
 
-esttab using $path/R2_regression_1124/results/table_lccnoint.csv, replace se r2 drop(_cons $xctrl)
+esttab using $path/results/table_lccnoint.csv, replace se r2 drop(_cons $xctrl)
 
