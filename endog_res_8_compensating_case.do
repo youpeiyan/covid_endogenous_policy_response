@@ -46,7 +46,7 @@ qui sum sim_sink0, detail
 gen plot_sim_sink0 = sim_sink0
 replace plot_sim_sink0 = 0 if sim_sink0 <= 0
 replace plot_sim_sink0 = r(p95) if sim_sink0 >= r(p95) & sim_sink0 !=.
-replace plot_sim_sink0 = 3553.654 if plot_sim_sink0 == . & ccstar !=.
+replace plot_sim_sink0 = 3553.654 if plot_sim_sink0 == . & ccstar !=. // 3553.654 is r(p95), this step is to double-check
 
 
 preserve
