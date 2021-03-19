@@ -32,8 +32,8 @@ https://www.bls.gov/cew/downloadable-data-files.htm  <br/>
 
 The cleaned dataset is named “**endog_res_final2.dta**”. 
 
-We only upload the cleaned datasets used in this study in the zip file **datasets.zip**. <br/>
-https://drive.google.com/file/d/1Oj5MRtexqNVtyTl6N5RKubCc9qBnd1NJ/view?usp=sharing <br/>
+We only upload the cleaned datasets used in this study to OPENICPSR:
+https://www.openicpsr.org/openicpsr/project/135121/version/V1/view
 It also contains a folder named **figures** that have exported .xls files that can be used to plot maps in **endog_res_10_maps.R** directly. 
 
 If you are interested in any intermediate datasets:<br/>
